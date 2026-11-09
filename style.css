@@ -169,7 +169,6 @@ ul.plain li { margin: 0 0 14px; }
 /* Photos with captions */
 figure.photo {
   margin: 28px 0;
-  max-width: 560px;
 }
 
 figure.photo img {
@@ -188,14 +187,12 @@ figure.photo figcaption {
   display: flex;
   gap: 20px;
   margin: 36px 0 8px;
-  max-width: 620px;
 }
 
 .photo-row figure.photo {
   flex: 1 1 0;
   min-width: 0;
   margin: 0;
-  max-width: 300px;
 }
 
 @media (max-width: 600px) {
