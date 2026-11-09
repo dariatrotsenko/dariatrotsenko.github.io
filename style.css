@@ -166,6 +166,39 @@ ul.plain li { margin: 0 0 14px; }
 
 .entry .links { margin: 2px 0 0; font-size: 0.92rem; }
 
+/* Photos with captions */
+figure.photo {
+  margin: 28px 0;
+}
+
+figure.photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+figure.photo figcaption {
+  margin-top: 6px;
+  color: #666666;
+  font-size: 0.88rem;
+}
+
+.photo-row {
+  display: flex;
+  gap: 20px;
+  margin: 36px 0 8px;
+}
+
+.photo-row figure.photo {
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .photo-row { flex-direction: column; gap: 24px; }
+}
+
 footer {
   border-top: 1px solid #dddddd;
   padding: 16px 0 36px;
